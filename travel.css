@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #111;
+  }
+
+  /* Navbar */
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 50;
+    background-color: #9185856f;
+  }
+
+
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    color: #8b5cf6;
+  }
+
+  /* Hero section */
+  .hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background:  url('images/Bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0 20px;
+     }
+
+  .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin-bottom: 30px;
+    color: #ccc;
+  }
+
+ .buttons {
+    display: flex;
+    gap: 15px;
+  }
+
+
+
+
+/* Light theme Contact Form */
+form#contactForm {
+    background-color: #ffffff; /* white form */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); /* light shadow */
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  form#contactForm input,
+  form#contactForm textarea {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc; /* light border */
+    outline: none;
+    font-size: 1rem;
+    background-color: #f9f9f9; /* very light gray */
+    color: #111; /* dark text */
+    transition: 0.3s;
+  }
+  
+  form#contactForm input::placeholder,
+  form#contactForm textarea::placeholder {
+    color: #888; /* medium gray placeholder */
+  }
+  
+  form#contactForm input:focus,
+  form#contactForm textarea:focus {
+    border-color: #6366f1; /* indigo outline on focus */
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+  }
+  
+  form#contactForm textarea {
+    min-height: 120px;
+    resize: vertical;
+  }
+  
+  form#contactForm button {
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #6366f1; /* primary indigo button */
+    color: white;
+  }
+  
+  form#contactForm button:hover {
+    background-color: #4f46e5; /* darker indigo on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(99, 102, 241, 0.4);
+  }
+
+  
+.search-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap; 
+  }
+  
+ 
+  .custom-input {
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    width: 250px;
+    max-width: 100%;
+    background-color: #6366f1;
+    color: black;
+    transition: 0.3s;
+  }
+  
+  .custom-input::placeholder {
+    color: #aaa;
+  }
+  
+  .custom-input:focus {
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.5); /* Indigo glow */
+  }
+  
+  
+  .btn-primary {
+    background-color: #6366f1; 
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4f46e5;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(99, 102, 241, 0.4);
+  }
+  
+ 
+  .btn-secondary {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn-secondary:hover {
+    background-color: white;
+    color: #111;
+    transform: translateY(-2px);
+  }
+  

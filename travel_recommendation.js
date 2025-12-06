@@ -57,7 +57,7 @@ searchbtn.addEventListener("click", () => {
 
 
 function displayCountry(country) {
-    result.innerHTML = `
+    result.innerHTML += `
         <h2>${country.name}</h2>
         ${country.cities.map(city => `
             <div class="card">
@@ -69,14 +69,14 @@ function displayCountry(country) {
     `;
 }
 function displayTemple(temple) {
-    result.innerHTML = `
+    result.innerHTML += `
         <h2>${temple.name}</h2>
         <img src="${temple.imageUrl}" alt="">
         <p>${temple.description}</p>
     `;
 }
 function displayBeach(beach) {
-    result.innerHTML = `
+    result.innerHTML += `
         <h2>${beach.name}</h2>
         <img src="${beach.imageUrl}" alt="">
         <p>${beach.description}</p>

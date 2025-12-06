@@ -59,7 +59,7 @@
       {
         "id": 2,
         "name": "Taj Mahal, India",
-        "imageUrl": "images/mahal.jpg",
+        "imageUrl": "images/Mahal.jpg",
         "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
       }
     ],
@@ -73,7 +73,7 @@
       {
         "id": 2,
         "name": "Copacabana Beach, Brazil",
-        "imageUrl": "pbana.jpg",
+        "imageUrl": "images/pbana.jpg",
         "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
       }
     ]

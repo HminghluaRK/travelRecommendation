@@ -16,15 +16,15 @@ searchbtn.addEventListener("click", () => {
         .then(res => res.json())
         .then(data => {
 
-            if (userText === "countries") {
+            if (userText === "countries" || userText === "country") {
                 data.countries.forEach(country => displayCountry(country));
                 return;
             }
-            if (userText === "temples") {
+            if (userText === "temples" || userText === "temple") {
                 data.temples.forEach(temple => displayTemple(temple));
                 return;
             }
-            if (userText === "beaches") {
+            if (userText === "beaches" || userText === "beach") {
                 data.beaches.forEach(beach => displayBeach(beach));
                 return;
             }
